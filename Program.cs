@@ -22,7 +22,7 @@ namespace test
             {
                 for (int stabl = 0; stabl <= stablesCount - 1; stabl++)
                 {
-                    dist[row, stabl] = int.Parse(Console.ReadLine());
+                    dist[row, stabl] = double.Parse(Console.ReadLine());
                 }
             }
 
